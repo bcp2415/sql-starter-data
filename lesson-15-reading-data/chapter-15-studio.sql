@@ -118,3 +118,8 @@ ORDER BY earnings;
 SELECT * FROM movies
 ORDER BY earnings
 WHERE earnings > 100;
+
+SELECT count(*), earnings
+from movies
+group by earnings
+having > 22;
